@@ -31,7 +31,7 @@ docker pull mysql:9.5.0
 docker run mysql:9.5.0
 ```
 
-## 6. Container 실행하기
+## 6. Container 생성 및 실행하기
 ``` bash
 # docker run [OPTIONS] <이미지 이름>:<이미지 태그>
 #
@@ -45,7 +45,7 @@ docker run mysql:9.5.0
 docker run --name=mydata -p 3306:3306 -v C:/yourdata:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=docker123 -d mysql:9.5.0
 ```
 
-## 7. 
+## 7. Container 시작하기
 ```bash
 # docker start <컨테이너 아이디 or 컨테이너 이름>
 docker start 650698a530f1
