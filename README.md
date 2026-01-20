@@ -42,7 +42,7 @@ docker run mysql:9.5.0
 #   -e <환경변수KEY>=<값>
 #   -d
 
-docker run --name=mydata -p 3306:3306 -v C:/yourdata:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=docker123 -d mysql:9.5.0
+docker run --name=mydata -p 3306:3306 -v C:/Users/USER/Documents/dockerdata/mysql1:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=docker123 -d mysql:9.5.0
 ```
 
 ## 7. Container 시작하기
