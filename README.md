@@ -23,7 +23,7 @@ hello-docker
 
 10. [**도커 안으로 진입하기**](#10-도커-안으로-진입하기)
 
-11. [**이미지 삭제하기**](#11-이미지-삭제하기)
+11. [**Image 삭제하기**](#11-image-삭제하기)
 
 
 ## 1. 이미지 List 가져오기
@@ -99,7 +99,7 @@ docker container rm myData
 docker exec -it myData bash
 ```
 
-## 11. 이미지 삭제하기
+## 11. Image 삭제하기
 ``` bash
 # docker image rm <Image Id>
 docker image rm mysql:9.5.0
