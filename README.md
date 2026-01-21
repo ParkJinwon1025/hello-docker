@@ -3,7 +3,7 @@ hello-docker
 
 # 목차
 
-1. [**image List 가져오기**](#1-image-list-가져오기)
+1. [**Image List 가져오기**](#1-image-list-가져오기)
 
 2. [**Container List 가져오기**](#2-container-list-가져오기)
 
